@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+su REPLACE_USERNAME -c 'gpg-connect-agent "scd serialno" "learn --force" /bye'
+logger 'yubikey_switch udevrule executed'
